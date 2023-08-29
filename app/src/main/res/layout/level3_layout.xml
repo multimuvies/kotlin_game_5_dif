@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelActivity">
+
+    <ImageView
+        android:id="@+id/l3_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/level3" />
+
+    <ImageView
+        android:id="@+id/l3_d1_p1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:alpha="0"
+        android:onClick="onClickDifCheck"
+        app:layout_constraintBottom_toBottomOf="@+id/l3_pic"
+        app:layout_constraintEnd_toEndOf="@+id/l3_pic"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="@+id/l3_pic"
+        app:layout_constraintTop_toTopOf="@+id/l3_pic"
+        app:layout_constraintVertical_bias="0.406"
+        app:srcCompat="@drawable/green_circle" />
+
+    <ImageView
+        android:id="@+id/l3_d1_p2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:alpha="0"
+        android:onClick="onClickDifCheck"
+        app:layout_constraintBottom_toBottomOf="@+id/l3_pic"
+        app:layout_constraintEnd_toEndOf="@+id/l3_pic"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="@+id/l3_pic"
+        app:layout_constraintTop_toTopOf="@+id/l3_pic"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/green_circle" />
+
+    <ImageView
+        android:id="@+id/l3_d2_p1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:alpha="0"
+        android:onClick="onClickDifCheck"
+        app:layout_constraintBottom_toBottomOf="@+id/l3_pic"
+        app:layout_constraintEnd_toEndOf="@+id/l3_pic"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="@+id/l3_pic"
+        app:layout_constraintTop_toTopOf="@+id/l3_pic"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/green_circle" />
+
+    <ImageView
+        android:id="@+id/l3_d2_p2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:alpha="0"
+        android:onClick="onClickDifCheck"
+        app:layout_constraintBottom_toBottomOf="@+id/l3_pic"
+        app:layout_constraintEnd_toEndOf="@+id/l3_pic"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="@+id/l3_pic"
+        app:layout_constraintTop_toTopOf="@+id/l3_pic"
+        app:layout_constraintVertical_bias="0.594"
+        app:srcCompat="@drawable/green_circle" />
+
+    <ImageView
+        android:id="@+id/l3_d3_p1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:alpha="0"
+        android:onClick="onClickDifCheck"
+        app:layout_constraintBottom_toBottomOf="@+id/l3_pic"
+        app:layout_constraintEnd_toEndOf="@+id/l3_pic"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/l3_pic"
+        app:layout_constraintTop_toTopOf="@+id/l3_pic"
+        app:layout_constraintVertical_bias="0.219"
+        app:srcCompat="@drawable/green_circle" />
+
+    <ImageView
+        android:id="@+id/l3_d3_p2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:alpha="0"
+        android:onClick="onClickDifCheck"
+        app:layout_constraintBottom_toBottomOf="@+id/l3_pic"
+        app:layout_constraintEnd_toEndOf="@+id/l3_pic"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/l3_pic"
+        app:layout_constraintTop_toTopOf="@+id/l3_pic"
+        app:layout_constraintVertical_bias="0.777"
+        app:srcCompat="@drawable/green_circle" />
+
+    <ImageView
+        android:id="@+id/l3_d4_p1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:alpha="0"
+        android:onClick="onClickDifCheck"
+        app:layout_constraintBottom_toBottomOf="@+id/l3_pic"
+        app:layout_constraintEnd_toEndOf="@+id/l3_pic"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="@+id/l3_pic"
+        app:layout_constraintTop_toTopOf="@+id/l3_pic"
+        app:layout_constraintVertical_bias="0.437"
+        app:srcCompat="@drawable/green_circle" />
+
+    <ImageView
+        android:id="@+id/l3_d4_p2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:alpha="0"
+        android:onClick="onClickDifCheck"
+        app:layout_constraintBottom_toBottomOf="@+id/l3_pic"
+        app:layout_constraintEnd_toEndOf="@+id/l3_pic"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="@+id/l3_pic"
+        app:layout_constraintTop_toTopOf="@+id/l3_pic"
+        app:layout_constraintVertical_bias="0.975"
+        app:srcCompat="@drawable/green_circle" />
+
+    <ImageView
+        android:id="@+id/l3_d5_p1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:alpha="0"
+        android:onClick="onClickDifCheck"
+        app:layout_constraintBottom_toBottomOf="@+id/l3_pic"
+        app:layout_constraintEnd_toEndOf="@+id/l3_pic"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="@+id/l3_pic"
+        app:layout_constraintTop_toTopOf="@+id/l3_pic"
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/green_circle" />
+
+    <ImageView
+        android:id="@+id/l3_d5_p2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:alpha="0"
+        android:onClick="onClickDifCheck"
+        app:layout_constraintBottom_toBottomOf="@+id/l3_pic"
+        app:layout_constraintEnd_toEndOf="@+id/l3_pic"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="@+id/l3_pic"
+        app:layout_constraintTop_toTopOf="@+id/l3_pic"
+        app:layout_constraintVertical_bias="0.671"
+        app:srcCompat="@drawable/green_circle" />
+
+    <FrameLayout
+        android:id="@+id/end_game_holder3"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

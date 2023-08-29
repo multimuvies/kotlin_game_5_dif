@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Find_5_diff_test</string>
+    <string name="select_level_str">Select Level</string>
+    <string name="about_str">About</string>
+    <string name="settings_str">Settings</string>
+    <string name="lorem200words">magna sit amet purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus cras adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque</string>
+    <string name="win_congrats_str">Congratulations! You found all the differences between pictures!</string>
+    <string name="to_level_selection_str">Return to level selection</string>
+    <string name="to_level_str">Return to the level</string>
+    <string name="differences_found_of">Differences found : </string>
+    <string name="about_info">The app "Find 5 differences" was developed by Dmitriy Dergunov \n\n \n\n contact: \n didergunov_2@edu.hse.ru</string>
+    <string name="choose_color_str">Choose theme color</string>
+    <string name="red_col_str">Red</string>
+    <string name="blue_col_str">Blue</string>
+    <string name="green_col_str">Green</string>
+    <string name="violet_col_str">Violet</string>
+    <string name="dark_col_str">Dark</string>
+    <string name="yellow_col_str">Yellow</string>
+</resources>
